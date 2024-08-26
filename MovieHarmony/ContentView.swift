@@ -8,14 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = Model()
+    @StateObject var pairKeywordVM = PairKeywordVM()
+    @StateObject var questionAnswersVM = QuestionAnswersVM()
+    @StateObject var postersVM = PostersVM()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            switch model.screen {
+            case .pairKeywordScreen:
+                PairKeywordsView(firstImage: "testImageForKeywords1024x1024", secondImage: "testImageForKeywords1024x1024", model: self.model)
+                    .environmentObject(pairKeywordVM)
+                    .environmentObject(questionAnswersVM)
+                    .environmentObject(postersVM)
+            case .questionAnswersScreen:
+                QuestionAnswersView(model: self.model)
+                    .environmentObject(pairKeywordVM)
+                    .environmentObject(questionAnswersVM)
+                    .environmentObject(postersVM)
+            case .postersScreen:
+                PostersView()
+                    .environmentObject(pairKeywordVM)
+                    .environmentObject(questionAnswersVM)
+                    .environmentObject(postersVM)
+            case .testImageFromTheInternet:
+                TestImageFromTheInternet()
+            }
         }
-        .padding()
     }
 }
 
@@ -24,3 +44,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+

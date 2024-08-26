@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173FCFCA2BC920B400C6451D /* TestImageFromTheInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FCFC92BC920B400C6451D /* TestImageFromTheInternet.swift */; };
+		173FCFCD2BDCD6C300C6451D /* TopBarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FCFCC2BDCD6C300C6451D /* TopBarMenuView.swift */; };
+		1768E5F22BA97A8C00D7569D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768E5F12BA97A8C00D7569D /* ApiClient.swift */; };
+		1768E5F52BA97E3400D7569D /* PairKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768E5F42BA97E3400D7569D /* PairKeywords.swift */; };
+		1768E5F82BA9858E00D7569D /* PairKeywordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768E5F72BA9858E00D7569D /* PairKeywordsView.swift */; };
+		1768E5FD2BAAC13700D7569D /* PairKeywordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768E5FC2BAAC13700D7569D /* PairKeywordVM.swift */; };
 		17B58C2A2B70CBFF0067A992 /* MovieHarmonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B58C292B70CBFF0067A992 /* MovieHarmonyApp.swift */; };
 		17B58C2C2B70CBFF0067A992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B58C2B2B70CBFF0067A992 /* ContentView.swift */; };
 		17B58C2E2B70CC030067A992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B58C2D2B70CC030067A992 /* Assets.xcassets */; };
 		17B58C312B70CC030067A992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B58C302B70CC030067A992 /* Preview Assets.xcassets */; };
+		17E9C9E62BB6F1C00080359F /* QuestionAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9E52BB6F1C00080359F /* QuestionAnswersView.swift */; };
+		17E9C9E82BB6F6160080359F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9E72BB6F6160080359F /* Model.swift */; };
+		17E9C9EA2BB6F9B70080359F /* QuestionAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9E92BB6F9B70080359F /* QuestionAnswers.swift */; };
+		17E9C9EC2BB6FB560080359F /* QuestionAnswersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9EB2BB6FB560080359F /* QuestionAnswersVM.swift */; };
+		17E9C9F02BBD357C0080359F /* PostersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9EF2BBD357C0080359F /* PostersView.swift */; };
+		17E9C9F22BBD36860080359F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9F12BBD36860080359F /* CardView.swift */; };
+		17E9C9F52BBD440F0080359F /* Posters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9F42BBD440F0080359F /* Posters.swift */; };
+		17E9C9F72BBD441A0080359F /* PostersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9F62BBD441A0080359F /* PostersVM.swift */; };
+		17E9C9F92BC010290080359F /* EnumDrahState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9F82BC010290080359F /* EnumDrahState.swift */; };
+		17E9C9FB2BC0105E0080359F /* TopBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9FA2BC0105E0080359F /* TopBarMenu.swift */; };
+		17E9C9FD2BC010920080359F /* BottomBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9FC2BC010920080359F /* BottomBarMenu.swift */; };
+		17E9C9FF2BC3CEA70080359F /* KeywordWithAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9C9FE2BC3CEA70080359F /* KeywordWithAnswer.swift */; };
+		17E9CA012BC514430080359F /* FilmSimilarityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E9CA002BC514430080359F /* FilmSimilarityResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173FCFC92BC920B400C6451D /* TestImageFromTheInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageFromTheInternet.swift; sourceTree = "<group>"; };
+		173FCFCC2BDCD6C300C6451D /* TopBarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarMenuView.swift; sourceTree = "<group>"; };
+		1768E5F12BA97A8C00D7569D /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		1768E5F42BA97E3400D7569D /* PairKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairKeywords.swift; sourceTree = "<group>"; };
+		1768E5F72BA9858E00D7569D /* PairKeywordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairKeywordsView.swift; sourceTree = "<group>"; };
+		1768E5FC2BAAC13700D7569D /* PairKeywordVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairKeywordVM.swift; sourceTree = "<group>"; };
 		17B58C262B70CBFF0067A992 /* MovieHarmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHarmony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B58C292B70CBFF0067A992 /* MovieHarmonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHarmonyApp.swift; sourceTree = "<group>"; };
 		17B58C2B2B70CBFF0067A992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17B58C2D2B70CC030067A992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B58C302B70CC030067A992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17E9C9E02BAD8E2A0080359F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		17E9C9E52BB6F1C00080359F /* QuestionAnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswersView.swift; sourceTree = "<group>"; };
+		17E9C9E72BB6F6160080359F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		17E9C9E92BB6F9B70080359F /* QuestionAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswers.swift; sourceTree = "<group>"; };
+		17E9C9EB2BB6FB560080359F /* QuestionAnswersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswersVM.swift; sourceTree = "<group>"; };
+		17E9C9EF2BBD357C0080359F /* PostersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersView.swift; sourceTree = "<group>"; };
+		17E9C9F12BBD36860080359F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		17E9C9F42BBD440F0080359F /* Posters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posters.swift; sourceTree = "<group>"; };
+		17E9C9F62BBD441A0080359F /* PostersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersVM.swift; sourceTree = "<group>"; };
+		17E9C9F82BC010290080359F /* EnumDrahState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDrahState.swift; sourceTree = "<group>"; };
+		17E9C9FA2BC0105E0080359F /* TopBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarMenu.swift; sourceTree = "<group>"; };
+		17E9C9FC2BC010920080359F /* BottomBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarMenu.swift; sourceTree = "<group>"; };
+		17E9C9FE2BC3CEA70080359F /* KeywordWithAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordWithAnswer.swift; sourceTree = "<group>"; };
+		17E9CA002BC514430080359F /* FilmSimilarityResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSimilarityResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +71,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173FCFC82BC9209B00C6451D /* TestImageFromTheInternet */ = {
+			isa = PBXGroup;
+			children = (
+				173FCFC92BC920B400C6451D /* TestImageFromTheInternet.swift */,
+			);
+			path = TestImageFromTheInternet;
+			sourceTree = "<group>";
+		};
+		173FCFCB2BDCD69300C6451D /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				173FCFCC2BDCD6C300C6451D /* TopBarMenuView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		1768E5F02BA97A7600D7569D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1768E5F12BA97A8C00D7569D /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1768E5F32BA97E0900D7569D /* PairKeywordsManager */ = {
+			isa = PBXGroup;
+			children = (
+				1768E5F42BA97E3400D7569D /* PairKeywords.swift */,
+				1768E5FC2BAAC13700D7569D /* PairKeywordVM.swift */,
+			);
+			path = PairKeywordsManager;
+			sourceTree = "<group>";
+		};
+		1768E5F62BA9855500D7569D /* PairKeywordsView */ = {
+			isa = PBXGroup;
+			children = (
+				1768E5F72BA9858E00D7569D /* PairKeywordsView.swift */,
+			);
+			path = PairKeywordsView;
+			sourceTree = "<group>";
+		};
+		1768E5F92BAABF8C00D7569D /* EnumForScreens */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9E72BB6F6160080359F /* Model.swift */,
+			);
+			path = EnumForScreens;
+			sourceTree = "<group>";
+		};
 		17B58C1D2B70CBFF0067A992 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +139,14 @@
 		17B58C282B70CBFF0067A992 /* MovieHarmony */ = {
 			isa = PBXGroup;
 			children = (
+				173FCFCB2BDCD69300C6451D /* CommonView */,
+				173FCFC82BC9209B00C6451D /* TestImageFromTheInternet */,
+				17E9C9E02BAD8E2A0080359F /* Info.plist */,
+				17E9C9ED2BBD354E0080359F /* Posters */,
+				17E9C9E22BB6F1650080359F /* QuestionAnswers */,
+				17E9C9E12BB6F1340080359F /* PairKeywords */,
+				1768E5F92BAABF8C00D7569D /* EnumForScreens */,
+				1768E5F02BA97A7600D7569D /* Network */,
 				17B58C292B70CBFF0067A992 /* MovieHarmonyApp.swift */,
 				17B58C2B2B70CBFF0067A992 /* ContentView.swift */,
 				17B58C2D2B70CC030067A992 /* Assets.xcassets */,
@@ -65,6 +161,73 @@
 				17B58C302B70CC030067A992 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17E9C9E12BB6F1340080359F /* PairKeywords */ = {
+			isa = PBXGroup;
+			children = (
+				1768E5F32BA97E0900D7569D /* PairKeywordsManager */,
+				1768E5F62BA9855500D7569D /* PairKeywordsView */,
+			);
+			path = PairKeywords;
+			sourceTree = "<group>";
+		};
+		17E9C9E22BB6F1650080359F /* QuestionAnswers */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9E42BB6F1930080359F /* QuestionAnswersManager */,
+				17E9C9E32BB6F17E0080359F /* QuestionAnswersView */,
+			);
+			path = QuestionAnswers;
+			sourceTree = "<group>";
+		};
+		17E9C9E32BB6F17E0080359F /* QuestionAnswersView */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9E52BB6F1C00080359F /* QuestionAnswersView.swift */,
+			);
+			path = QuestionAnswersView;
+			sourceTree = "<group>";
+		};
+		17E9C9E42BB6F1930080359F /* QuestionAnswersManager */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9FE2BC3CEA70080359F /* KeywordWithAnswer.swift */,
+				17E9C9E92BB6F9B70080359F /* QuestionAnswers.swift */,
+				17E9C9EB2BB6FB560080359F /* QuestionAnswersVM.swift */,
+			);
+			path = QuestionAnswersManager;
+			sourceTree = "<group>";
+		};
+		17E9C9ED2BBD354E0080359F /* Posters */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9F32BBD43F20080359F /* PostersManager */,
+				17E9C9EE2BBD35620080359F /* PostersView */,
+			);
+			path = Posters;
+			sourceTree = "<group>";
+		};
+		17E9C9EE2BBD35620080359F /* PostersView */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9EF2BBD357C0080359F /* PostersView.swift */,
+				17E9C9F12BBD36860080359F /* CardView.swift */,
+				17E9C9FA2BC0105E0080359F /* TopBarMenu.swift */,
+				17E9C9FC2BC010920080359F /* BottomBarMenu.swift */,
+			);
+			path = PostersView;
+			sourceTree = "<group>";
+		};
+		17E9C9F32BBD43F20080359F /* PostersManager */ = {
+			isa = PBXGroup;
+			children = (
+				17E9C9F42BBD440F0080359F /* Posters.swift */,
+				17E9C9F62BBD441A0080359F /* PostersVM.swift */,
+				17E9C9F82BC010290080359F /* EnumDrahState.swift */,
+				17E9CA002BC514430080359F /* FilmSimilarityResult.swift */,
+			);
+			path = PostersManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +258,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					17B58C252B70CBFF0067A992 = {
 						CreatedOnToolsVersion = 14.3;
@@ -137,8 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E9C9E82BB6F6160080359F /* Model.swift in Sources */,
 				17B58C2C2B70CBFF0067A992 /* ContentView.swift in Sources */,
+				17E9C9EA2BB6F9B70080359F /* QuestionAnswers.swift in Sources */,
+				1768E5F82BA9858E00D7569D /* PairKeywordsView.swift in Sources */,
+				17E9C9EC2BB6FB560080359F /* QuestionAnswersVM.swift in Sources */,
+				17E9C9E62BB6F1C00080359F /* QuestionAnswersView.swift in Sources */,
+				1768E5F52BA97E3400D7569D /* PairKeywords.swift in Sources */,
+				17E9C9F52BBD440F0080359F /* Posters.swift in Sources */,
+				173FCFCD2BDCD6C300C6451D /* TopBarMenuView.swift in Sources */,
+				17E9C9FD2BC010920080359F /* BottomBarMenu.swift in Sources */,
+				17E9C9FF2BC3CEA70080359F /* KeywordWithAnswer.swift in Sources */,
+				173FCFCA2BC920B400C6451D /* TestImageFromTheInternet.swift in Sources */,
+				17E9C9FB2BC0105E0080359F /* TopBarMenu.swift in Sources */,
+				17E9C9F92BC010290080359F /* EnumDrahState.swift in Sources */,
 				17B58C2A2B70CBFF0067A992 /* MovieHarmonyApp.swift in Sources */,
+				17E9CA012BC514430080359F /* FilmSimilarityResult.swift in Sources */,
+				17E9C9F02BBD357C0080359F /* PostersView.swift in Sources */,
+				1768E5FD2BAAC13700D7569D /* PairKeywordVM.swift in Sources */,
+				17E9C9F22BBD36860080359F /* CardView.swift in Sources */,
+				1768E5F22BA97A8C00D7569D /* ApiClient.swift in Sources */,
+				17E9C9F72BBD441A0080359F /* PostersVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -181,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -209,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -241,6 +426,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,6 +456,7 @@
 				DEVELOPMENT_TEAM = J4QDA26SL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieHarmony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +486,7 @@
 				DEVELOPMENT_TEAM = J4QDA26SL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieHarmony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
